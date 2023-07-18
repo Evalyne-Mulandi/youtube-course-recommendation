@@ -1,0 +1,28 @@
+{
+    "cSpell.words": [
+        "axios",
+        "composables",
+        "createvideo",
+        "Createyoutube",
+        "deletevideo",
+        "Editvideo",
+        "Edityoutube",
+        "getvideo",
+        "getyoutube",
+        "ilike",
+        "limitedvideos",
+        "Loadvideo",
+        "Loadyoutube",
+        "newvideo",
+        "Nuxt",
+        "pinia",
+        "singlevideo",
+        "Sixvideo",
+        "Sixyoutube",
+        "Supabase",
+        "toastification",
+        "Umkco",
+        "Vsxcb"
+    ],
+    "vue3snippets.enable-compile-vue-file-on-did-save-code": true
+}
