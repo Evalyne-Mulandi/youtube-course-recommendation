@@ -2,18 +2,18 @@
     <nav class="bg-black py-5 shadow fixed inset-x-0 top-0 mb-4">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="/">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="/home">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="Dashboard">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Dashboard">Dashboard</NuxtLink>
         </li>
       </ul>
     </nav>
     <div class="max-w-6xl md:mx-auto mx-3 my-8 p-10">
     <h1 class="text-3xl font-bold mb-4">Terms &amp; Conditions</h1>
     <p class="mb-4">
-      Welcome to our bookmarking platform! By using our services, you agree to the
+      Welcome to our courses platform! By using our services, you agree to the
       following terms and conditions:
     </p>
     <ol class="list-decimal list-inside mb-4">

@@ -1,16 +1,16 @@
 <template>
  <Banner />
-<nav class="bg-slate-900 py-5 shadow   top-0 ">
+<nav class="bg-slate-800 py-5 shadow   top-0 ">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="heros">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500"   to="heros">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="">Dashboard</NuxtLink>
         </li>
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="AdminLogin">Admin</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Login">Admin</NuxtLink>
         </li>
         
       </ul>
@@ -92,7 +92,7 @@
           />
         </div>
         <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          class="bg-orange-600  hover:bg-slate-800 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           type="submit"
         >
           Register
@@ -108,7 +108,7 @@
       <div class="flex items-center mt-4">
         <button
           @click="loginWithGithub"
-          class="flex items-center justify-center w-full px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-gray-800 border border-transparent rounded-lg active:bg-gray-800 hover:bg-gray-700 focus:outline-none focus:shadow-outline-gray"
+          class="flex items-center justify-center w-full px-4 py-2 text-sm font-medium  hover:text-orange-600 leading-5 text-white transition-colors duration-150 bg-gray-800 border border-transparent rounded-lg active:bg-gray-800  focus:outline-none focus:shadow-outline-gray"
         >
           <svg
             class="w-4 h-4 mr-3"

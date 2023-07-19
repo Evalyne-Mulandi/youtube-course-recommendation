@@ -23,14 +23,21 @@
    <div class="  transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105  flex m-1  border  flex-col justify-center items-center max-w-sm ">
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class=" text-xl font-bold text-orange-600 p-1 font-mono ">Data science</h1>
-<span class=" font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class=" font-mono text-black"> Data science is a cutting-edge discipline that involves extracting insights and knowledge from vast datasets using advanced techniques. Through data analysis, predictive modeling, and machine learning, data science uncovers valuable patterns and trends that empower informed decision-making.</span>
 
 
    </div>
    <div class=" transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105  flex m-1   flex-col justify-center items-center max-w-sm  border">
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class="  text-xl font-bold p-1 text-orange-600 font-mono"> Python</h1>
-<span class="font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class="font-mono text-black">  A widely acclaimed programming language renowned for its versatility and simplicity. Developers worldwide appreciate its extensive libraries, making it suitable for diverse applications and projects. From web development to data analysis, Python's readability and robustness empower programmers to create efficient and scalable solutions effortlessly."
+
+
+
+
+
+
+</span>
 
 
    </div>
@@ -38,28 +45,28 @@
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class=" text-xl font-bold p-1 text-orange-600 font-mono"> Typescript
 </h1>
-<span class="font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class="font-mono text-black"> TypeScript is a superset of JavaScript that adds static typing to the language, providing developers with a more robust and structured way to build applications. It enables early error detection, improved code readability, and better tooling support. TypeScript compiles down to plain JavaScript, making it compatible with all modern browsers and platforms</span>
 
 
    </div>
    <div class=" transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105   flex m-1   border flex-col justify-center items-center max-w-sm ">
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class="  text-xl font-bold p-1 text-orange-600 font-mono "> javascript</h1>
-<span class="font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class="font-mono text-black">JavaScript, a powerful and versatile programming language, empowers web developers to create dynamic and interactive content. With its seamless integration into HTML and CSS, JavaScript allows for the manipulation of webpage elements, data handling, and event-driven functionalities</span>
 
 
    </div>
    <div class="  transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105  flex  m-1  border flex-col justify-center items-center max-w-sm ">
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class="   text-xl font-bold p-1 text-orange-600  font-mono">Computer science </h1>
-<span class="font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class="font-mono text-black"> Computer Science is a dynamic and ever-evolving field that lies at the heart of technological advancement and innovation. It encompasses the study of algorithms, data structures, programming languages, and various computational processes. Computer scientists work diligently to design and develop  cutting-edge technologies.</span>
 
 
    </div>
    <div class="  transition-all duration-500 transform pt-1 hover:pb-1 hover:scale-105   border flex  m-1  flex-col justify-center items-center max-w-sm ">
     <svg class="w-11 h-11" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
 <h1 class=" text-xl font-bold p-1 text-orange-600 font-mono "> Artficial intelligence</h1>
-<span class="font-mono text-black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, numquam eveniet dolorum nam officiis eius aperiam adipisci accusamus quam nemo saepe. Nobis doloremque, numquam autem blanditiis esse asperiores atque officia?</span>
+<span class="font-mono text-black"> Artificial Intelligence (AI) is an advanced field of computer science that seeks to create intelligent machines capable of performing tasks that typically require human intelligence. It involves the development of algorithms and models that enable machines to learn from data, adapt to new inputs, and make informed decisions.</span>
    </div>
 </div>
 </main>

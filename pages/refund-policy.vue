@@ -2,11 +2,11 @@
     <nav class="bg-black py-5 shadow fixed inset-x-0 top-0 mb-4">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="/">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="/">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="Dashboard">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Dashboard">Dashboard</NuxtLink>
         </li>
       </ul>
     </nav>
@@ -19,7 +19,7 @@
     </p>
     <p>
       To initiate a refund, please contact our customer support team at
-      support@bookmark.com. We may ask for additional information regarding your purchase
+      support@courses.com. We may ask for additional information regarding your purchase
       and the reason for the refund request. Once your request has been approved, we will
       process the refund and the funds will be returned to the original payment method
       within 5-7 business days.

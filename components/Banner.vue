@@ -47,12 +47,13 @@
               aria-hidden="true"
             >
               <circle cx="1" cy="1" r="1" /></svg
-            >Heads Up!! Many features will be released. Keep watching.
+            >Is Now Live !! Exciting Courses and Features Await.
+             
           </p>
           <Nuxt-Link
             to="/"
             class="flex-none rounded-full bg-yellow-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
-            >Coming Soon! <span aria-hidden="true">&rarr;</span></Nuxt-Link
+            >Get started! <span aria-hidden="true">&rarr;</span></Nuxt-Link
           >
         </div>
         <div class="flex flex-1 justify-end" @click="closeBanner">

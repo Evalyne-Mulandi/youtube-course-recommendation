@@ -1,23 +1,23 @@
 <template>
   <Banner />
-    <nav class="bg-black py-5 shadow   mb-4">
+    <nav class="bg-slate-800 py-5 shadow   ">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="/">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="/">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="Dashboard">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Dashboard">Dashboard</NuxtLink>
         </li>
       </ul>
     </nav>
-    <main class=" bg-white p-20 max-h-full"> 
+    <main class=" bg-gray-100 p-20 max-h-full"> 
     <div class="container mx-auto  ">
       <h1 class="text-2xl text-black font-bold mb-4">Revision Questions</h1>
   
       <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <!-- Question cards -->
-        <div v-for="(question, index) in questions" :key="index" class="bg-white bg-gradient-to-b from-white via-white to-[#696969] rounded-lg shadow-lg overflow-hidden transition-colors duration-500 md:h-full h-72  shadow-lg rounded-lg p-4">
+        <div v-for="(question, index) in questions" :key="index" class="bg-white bg-gradient-to-tl from-white via-white to-[#696969] rounded-lg shadow-lg overflow-hidden transition-colors duration-500 md:h-full h-72  shadow-lg rounded-lg p-4">
           <h2 class="text-lg font-bold mb-2">{{ question.language }}</h2>
           <p>{{ question.question }}</p>
           <div class="mt-4">
@@ -41,13 +41,13 @@
         </div>
       </div>
   
-      <button class="mt-4 bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-4 rounded" @click="submitQuiz">Submit</button>
+      <button class="mt-4 flex justify-center items-center bg-orange-600 hover:bg-slate-800 text-white font-bold py-1 px-4 rounded" @click="submitQuiz">Submit</button>
   
       <div v-if="showResult" class="mt-4 text-black">
         <h2 class="text-lg font-bold text-black mb-2">Quiz Result:</h2>
         <ul>
-          <li v-for="(question, index) in questions" :key="index">
-            {{ question.question }} - Your answer: {{ selectedAnswers[index] }}, Correct answer: {{ question.correctAnswer }}
+          <li class="gap-x-3" v-for="(question, index) in questions" :key="index">
+            {{ question.question }} - <strong>Your answer: </strong>  {{ selectedAnswers[index] }},  <strong>Correct answer:</strong>   {{ question.correctAnswer }}
           </li>
         </ul>
       </div>

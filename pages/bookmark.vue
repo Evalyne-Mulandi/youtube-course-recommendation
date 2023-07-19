@@ -1,32 +1,32 @@
 <template>
   <Banner />
-    <nav class="bg-black py-5 shadow    mb-4">
+    <nav class="bg-slate-800 py-5 shadow    ">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="/">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="/home">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="Dashboard">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Dashboard">Dashboard</NuxtLink>
         </li>
       </ul>
     </nav>
-    <div class=" max-h-full bg-white">
+    <div class=" bg-gray-100 max-h-full bg-w">
    
-        <i class="  flex justify-center items-center text-2xl text-black font-bold text-left py-16  ">Don't waste much time trying to recall where you read lastly,Create bookmark now!!</i>
+        <i class="  flex justify-center items-center text-2xl  hover:text-orange-500 text-black font-bold text-left py-16  ">Don't waste much time trying to recall where you read lastly,Create bookmark now!!</i>
 
-        <div class="  ml-96  items-center justify-center bg-gradient-to-tl from-black via-[#01397A] to-black p-8 rounded-lg shadow-lg border mx-auto max-w-xl ">  
+        <div class="  ml-96  items-center justify-center bg-gradient-to-tl from-black via-[#455261] to-black p-8 rounded-lg shadow-lg border mx-auto max-w-xl ">  
       <div class=" ml-36">
-        <h1 class=" text-white ml-14">Course title</h1>
-        <input type="text" class="border  border-gray-500 px-3 py-2" v-model="title">
+        <h1 class=" text-white font-bold ml-14">Course title</h1>
+        <input type="text" class="border rounded-md bg-gray-100 border-gray-500 px-3 py-2" v-model="title">
       </div>
       
       <div class="ml-36">
-        <h1 class=" ml-11 text-white">Course description</h1>
-        <textarea class="border   border-gray-500 px-3 py-2 w-52 h-20" name="" id="" cols="10" rows="10" v-model="description"></textarea>
+        <h1 class=" ml-11  text-white font-bold">Course description</h1>
+        <textarea class="border rounded-md bg-gray-100 border-gray-500 px-3 py-2 w-52 h-20" name="" id="" cols="10" rows="10" v-model="description"></textarea>
       </div>
       <div>
-        <button class="bg-gray-600  m-3 ml-52 text-white py-1 px-4   hover:bg-gray-500" @click="saveData(haveID)">Save</button>
+        <button class="bg-orange-600  rounded-md m-3 ml-52 text-white py-1 px-4   hover:bg-gray-500" @click="saveData(haveID)">Save</button>
       </div>
      
 
@@ -49,8 +49,8 @@
 
     <td  class="py-4 px-6 mx-auto max-w-2xl">
         <div class="inline-flex gap-1">
-            <button class="bg-blue-500  hover:bg-blue-400 text-white font-bold py-2 px-4 rounded-l "  @click="getData(course.id)" >Edit</button>
-            <button class="bg-red-500  hover:bg-red-400 text-white font-bold py-2 px-4 rounded-l"  @click="deleteData(course.id)">Delete</button>
+            <button class="bg-slate-800  hover:bg-slate-600 text-white font-bold py-2 px-4 rounded-md "  @click="getData(course.id)" >Edit</button>
+            <button class="bg-orange-600  hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-md"  @click="deleteData(course.id)">Delete</button>
         </div>
     </td>
 </tr>

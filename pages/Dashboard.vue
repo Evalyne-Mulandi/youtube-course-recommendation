@@ -5,14 +5,14 @@
     <nav class="bg-slate-900 py-4 shadow  ">
       <ul class="flex justify-center items-center mx-auto gap-x-2">
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="heros">Home</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="heros">Home</NuxtLink>
         </li>
 
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="Dashboard">Dashboard</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Dashboard">Dashboard</NuxtLink>
         </li>
         <li class="inline-block">
-          <NuxtLink class="text-white px-4 py-2" to="">Admin</NuxtLink>
+          <NuxtLink class="text-white px-4 py-2  hover:text-orange-500" to="Login">Admin</NuxtLink>
         </li>
       </ul>
     </nav>
@@ -56,7 +56,7 @@
           </p>
           <a
             href="#"
-            class="bg-slate-700 text-white py-2 px-4 rounded hover:bg-indigo-700 mt-4 flex justify-center justify-self-center items-center mx-auto"
+            class="bg-slate-700 text-white py-2 px-4 rounded hover:bg-orange-600 mt-4 flex justify-center justify-self-center items-center mx-auto"
             >Check below 👇</a
           >
         </div>

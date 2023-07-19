@@ -148,21 +148,21 @@
                 <NuxtLink
                   class="low font-light hover:underline text-sm md:text-sm sm:text-sm text-white"
                   to="/our-story"
-                  >Our Story</NuxtLink
+                  >My Story</NuxtLink
                 >
               </li>
               <li>
                 <NuxtLink
                   class="low font-light hover:underline text-sm md:text-sm sm:text-sm text-white"
                   to="/our-team"
-                  >Our Team</NuxtLink
+                  >My Team</NuxtLink
                 >
               </li>
               <li>
                 <NuxtLink
                   class="low font-light hover:underline text-sm md:text-sm sm:text-sm  text-white"
                   to="/our-mission"
-                  >Our Mission</NuxtLink
+                  >My Mission</NuxtLink
                 >
               </li>
             </ul>
@@ -291,9 +291,9 @@
  
    
 
-<div class="text-center p-3 m-1" style="background-color: rgba(0, 0, 0, 0.2);">
+<div class="text-center p-3 m-1" style="background-color: rgba(0, 0, 0, 0.2);"> Made with ❤
   © 2023 Copyright:
-  <a class="text-orange-600" href="https://tailwind-elements.com/">E-Tech solutions</a>
+  <a class="text-orange-600" href="https://tailwind-elements.com/">Evalyne Mulandi.</a>
 </div>
 </footer>
 </main>
