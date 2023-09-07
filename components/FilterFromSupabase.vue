@@ -84,7 +84,7 @@
                 <div>
                   <h3 class="text-lg font-semibold">{{ result.videoTitle }}</h3>
                   <p class="text-sm text-gray-500">{{ result.channelTitle }}</p>
-                  <p class="text-gray-600">{{ result.views }} views</p>
+                  <!-- <p class="text-gray-600">{{ result.views }} views</p> -->
                   <button v-if="Admin" @click="removeCourseFromList(video.id)">Delete<Icon name="material-symbols:delete" class="h-5 w-5 text-red-600" /></button>
                 </div>
               </li>
@@ -154,7 +154,7 @@ export default {
             videoTitle: item.video_name,
             channelTitle: item.channel_name,
             thumbnailUrl: item.thumbnail_url,
-            views:item.views
+            // views:item.views
           }));
         }
       } catch (error) {

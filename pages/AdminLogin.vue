@@ -74,7 +74,7 @@
            />
          </div> -->
          <button
-           class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+           class="bg-orange-600 hover:bg-slate-700 text-white font-medium py-2 px-4 rounded focus:outline-none focus:shadow-outline"
            type="submit"
          >
            Admin login

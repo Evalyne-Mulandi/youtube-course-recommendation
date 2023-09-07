@@ -78,7 +78,7 @@
             ></iframe>
           </div>
           <!-- <button  class=" rounded-md " v-if="Admin" @click="removeCourseFromList(videoId)   ">Delete<Icon name="material-symbols:delete" class="h-5 w-5 text-red-600" /></button> -->
-          <p class="text-gray-600">{{ result.views }} views</p>
+          <!-- <p class="text-gray-600">{{ result.views }} views</p> -->
         </div>
       </div>
     </div>
@@ -147,7 +147,7 @@ export default {
             videoName: item.video_name,
             channelName: item.channel_name,
             thumbnailUrl: item.thumbnail_url,
-            views:item.views
+            // views:item.views
           }));
         }
       } catch (error) {

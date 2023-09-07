@@ -51,7 +51,7 @@
              
           </p>
           <Nuxt-Link
-            to="/"
+            to="/heros"
             class="flex-none rounded-full bg-yellow-900 py-1 px-3.5 text-sm font-semibold text-white shadow-sm hover:bg-yellow-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
             >Get started! <span aria-hidden="true">&rarr;</span></Nuxt-Link
           >

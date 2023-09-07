@@ -15,7 +15,7 @@
           </div>
           <h3 class="text-lg font-bold">{{ video.videoTitle }}</h3>
           <p class="text-gray-600">{{ video.channelTitle }}</p>
-          <p class="text-gray-600">{{ video.views }} views</p>
+          <!-- <p class="text-gray-600">{{ video.views }} views</p> -->
 
           <button v-if="Admin" @click="removeCourseFromList(video.id)">Delete<Icon name="material-symbols:delete" class="h-5 w-5 text-red-600" /></button>
 
@@ -60,7 +60,7 @@
               videoId: item.video_id,
               videoTitle: item.video_name,
               channelTitle: item.channel_name,
-              views:item.views
+              // views:item.views
             }));
           }
         } catch (error) {
